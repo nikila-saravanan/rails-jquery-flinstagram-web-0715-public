@@ -1,0 +1,2 @@
+$('.likes-message').html("<%= j @picture.likes_message(@current_user) %>");
+$('.like-btn').html("<span class='<%= j @picture.heart_class(@current_user) %>'></span>");
